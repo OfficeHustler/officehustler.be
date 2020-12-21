@@ -1,0 +1,214 @@
+html, body {
+  height: 100%;
+  height: 100vh; }
+
+body {
+  min-height: 100%;
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  background-color: #3c3a3b;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-attachment: fixed;
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  color: #333; }
+
+a {
+  text-decoration: underline;
+  color: #333; }
+  a:hover {
+    color: #4d4d4d;
+    text-decoration: none; }
+
+#mainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  min-height: 100%;
+  max-width: 750px;
+  margin: 0px auto; }
+  #mainContainer #mainContentBlock {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 20px; }
+    #mainContainer #mainContentBlock .backFlipBox {
+      margin: 5px;
+      padding: 3px 10px;
+      border-radius: 15px;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      background-color: #666666;
+      font-size: 0.8em; }
+      #mainContainer #mainContentBlock .backFlipBox a {
+        color: #f5f5f5;
+        text-decoration: none; }
+      #mainContainer #mainContentBlock .backFlipBox:hover {
+        background-color: #333; }
+    #mainContainer #mainContentBlock #mainContent {
+      background: #f5f5f5 url("../images/paperbg.jpg") repeat;
+      width: 700px;
+      height: 400px;
+      margin: 0px auto;
+      overflow: hidden;
+      box-shadow: 5px 5px 25px #080808; }
+      #mainContainer #mainContentBlock #mainContent #avatarImageBlock {
+        float: right;
+        width: 250px;
+        height: 105%;
+        margin: -10px 0px;
+        background-position: center center;
+        background-size: cover;
+        box-shadow: inset 25px 0px 25px 0px #f5f5f5;
+        opacity: 0.85; }
+      #mainContainer #mainContentBlock #mainContent #frontContentBox {
+        height: 330px;
+        text-align: center;
+        margin: 0px;
+        padding: 60px 50px 10px 50px;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 0 auto;
+                flex: 1 0 auto;
+        max-width: 380px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        opacity: 0.9; }
+        #mainContainer #mainContentBlock #mainContent #frontContentBox #nameIntroBox {
+          -webkit-box-flex: 1;
+              -ms-flex: 1 0 auto;
+                  flex: 1 0 auto;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -ms-flex-line-pack: stretch;
+              align-content: stretch; }
+          #mainContainer #mainContentBlock #mainContent #frontContentBox #nameIntroBox h1, #mainContainer #mainContentBlock #mainContent #frontContentBox #nameIntroBox h2 {
+            margin: 3px 0px; }
+        #mainContainer #mainContentBlock #mainContent #frontContentBox #featuredLinksBox {
+          margin: 10px auto;
+          padding: 0px;
+          list-style: none;
+          max-width: 400px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          #mainContainer #mainContentBlock #mainContent #frontContentBox #featuredLinksBox li {
+            margin: 5px;
+            display: inline-block; }
+            #mainContainer #mainContentBlock #mainContent #frontContentBox #featuredLinksBox li a {
+              text-decoration: none; }
+      #mainContainer #mainContentBlock #mainContent #fullBioBox {
+        padding: 20px 40px; }
+    #mainContainer #mainContentBlock #backContent {
+      display: none;
+      background: #f5f5f5 url("../images/paperbg.jpg") repeat;
+      width: 700px;
+      height: 400px;
+      margin: 0px auto;
+      overflow: auto;
+      box-shadow: 5px 5px 25px #080808; }
+      #mainContainer #mainContentBlock #backContent #backContentBody {
+        padding: 30px 40px;
+        opacity: 0.9; }
+        #mainContainer #mainContentBlock #backContent #backContentBody h1, #mainContainer #mainContentBlock #backContent #backContentBody h2 {
+          margin: 5px 0px; }
+        #mainContainer #mainContentBlock #backContent #backContentBody h2 {
+          font-size: 1.2em; }
+        #mainContainer #mainContentBlock #backContent #backContentBody #allLinksBox {
+          margin: 10px auto;
+          padding: 0px;
+          list-style: none;
+          max-width: 400px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          #mainContainer #mainContentBlock #backContent #backContentBody #allLinksBox li {
+            margin: 5px;
+            display: inline-block; }
+            #mainContainer #mainContentBlock #backContent #backContentBody #allLinksBox li a {
+              text-decoration: none; }
+
+div.footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: #c3c5c4;
+  text-shadow: 0px 1px 1px #080808; }
+  div.footer a {
+    color: #f5f5f5; }
+
+@media only screen and (max-width: 768px) {
+  #mainContainer #mainContentBlock {
+    padding: 10px; }
+    #mainContainer #mainContentBlock #mainContent {
+      width: 400px;
+      height: 700px; }
+      #mainContainer #mainContentBlock #mainContent #avatarImageBlock {
+        float: none;
+        width: 105%;
+        margin-left: -2.5%;
+        height: 300px;
+        box-shadow: inset 0px -25px 25px 0px #f5f5f5; }
+      #mainContainer #mainContentBlock #mainContent #frontContentBox {
+        padding: 10px 50px;
+        height: 400px; }
+    #mainContainer #mainContentBlock #backContent {
+      width: 400px;
+      height: 700px; } }
